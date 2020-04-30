@@ -1,0 +1,40 @@
+#main{
+    background-color:rgba(92, 151, 191, 1);
+    text-align: center;
+   }
+   
+   #title{
+     background-color: rgba(197, 239, 247, 0.7);
+     text-align: center;
+     padding: 50px;
+     text-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,.5);
+   }
+   
+   #subheader{
+     background-color:blue;
+     padding:30px;
+   }
+   
+   #content-container{
+     height:800px;
+     background-color:rgba(45,45,45,0.1);
+     justify-content: center;
+   }
+
+   #company-intro{
+     
+   }
+   
+   #company-name{
+    
+   }
+   
+   #author-name{
+    
+   }
+   
+   p {
+     background-color: yellow;
+     margin: 50px;
+   }
+
