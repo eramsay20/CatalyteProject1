@@ -1,6 +1,6 @@
 body{
     text-align: justify;
-    background-color: rgba(45,45,45,0.1);
+    background-color: whitesmoke;
     display: inline-block;
     margin: 0px;
     --banner-blue: #CBD7E4;
@@ -8,12 +8,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     background-size: auto;
-    max-width: 98.3vw;
+    max-width: 98.32vw;
+    position: relative;
 }
-p {
+    hr{
+        width:200px;
+    }
+    p {
     padding: 5px;
-    background color: blue;
-}
+        }
+
 
 #header {
     background-color: var(--banner-blue);
@@ -27,8 +31,6 @@ p {
     padding: 40px 0px 40px 0px;
     font-size: 50px;
     font-variant: small-caps;
-  
-
 }
 #phase-block-blue {
     background-image: linear-gradient(to bottom, var(--steele-blue), whitesmoke);
@@ -37,27 +39,46 @@ p {
     margin: -40px 0 0px 0;
 }
 #content-container {
+    position: relative;
     background-color: whitesmoke;
     padding: 10px;
-   
+    display: inline-block;
+    
+    
 }
 #navigation-list{
-    max-width: 15vw;
+    position: relative;
+    bottom: 100px;
+    width: 10vw;
     height: auto;
-    padding: 15px;
+    padding: 0px 15px 0px 15px;
     margin: 15px;
+    line-height: 8px;
     background-color: rgba(45, 90, 120, 0.2);
     border-style: solid;
     border-color: rgba(45, 90, 130, 0.3);
     border-radius:10px;
     border-width: 2px;
     text-shadow: 4px 4px rgba(45,45,45,0.2);
-
+    font-size:14px;
+    float: left;
+    display: inline-block;
+    flex-direction: column;
+    font-variant: small-caps;
+   
+    
+}
+#title-content{
+    text-align: center;
+    position: relative;
 }
 #company-name{
     font-size: 24px;
     text-align: center;
     font-variant: small-caps;
+    position: relative;
+  
+   
 }
 #author-name{
     font-size: 18px;
@@ -66,4 +87,9 @@ p {
 }
 .content-text{
     font-family: serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;  
 }
