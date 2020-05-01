@@ -1,5 +1,69 @@
 body{
-    text-align: center;
+    text-align: justify;
     background-color: rgba(45,45,45,0.1);
-    font-size: 16px;
+    display: inline-block;
+    margin: 0px;
+    --banner-blue: #CBD7E4;
+    --steele-blue: #4682B4;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    background-size: auto;
+    max-width: 98.3vw;
+}
+p {
+    padding: 5px;
+    background color: blue;
+}
+
+#header {
+    background-color: var(--banner-blue);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--steele-blue);
+    border-radius:10px;
+    text-align: center;
+    text-shadow: 4px 4px rgba(45,45,45,0.2);
+    width: 98vw;
+    padding: 40px 0px 40px 0px;
+    font-size: 50px;
+    font-variant: small-caps;
+  
+
+}
+#phase-block-blue {
+    background-image: linear-gradient(to bottom, var(--steele-blue), whitesmoke);
+    max-width:100%;
+    height: 40px;
+    margin: -40px 0 0px 0;
+}
+#content-container {
+    background-color: whitesmoke;
+    padding: 10px;
+   
+}
+#navigation-list{
+    max-width: 15vw;
+    height: auto;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(45, 90, 120, 0.2);
+    border-style: solid;
+    border-color: rgba(45, 90, 130, 0.3);
+    border-radius:10px;
+    border-width: 2px;
+    text-shadow: 4px 4px rgba(45,45,45,0.2);
+
+}
+#company-name{
+    font-size: 24px;
+    text-align: center;
+    font-variant: small-caps;
+}
+#author-name{
+    font-size: 18px;
+    text-align: center;
+    font-family: serif;
+}
+.content-text{
+    font-family: serif;
 }
