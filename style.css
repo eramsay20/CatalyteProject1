@@ -4,20 +4,44 @@ box-sizing: border-box;
 }
 
 /* TYPE SELECTORS */
-header {
-
+body{
+    text-align: center;
 }
-body {
-
-}
-
-nav {}
 
 
  /*CLASS SELECTORS*/
+.main-header {
+    color: white;
+    background-color: steelblue;
+    text-align: center;
+    padding: 10px;
+}
 
+.main-header-phase{
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    background-image: linear-gradient(steelblue, white);
+}
 
+.primary-content{
+    font-size: 28px;
+    font-family: sans-serif;
+}
 
-
+.subject-name{
+    font-size: 24px;
+}
+.subject-author {
+    font-size: 20px;
+}
+.nav-float-left{
+    height: 50px;
+    width: 20vw;
+    background-color: grey;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
 
   /*ID SELECTORS*/
